@@ -1,0 +1,26 @@
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+@import '../fonts/stylesheet.css';
+:root {
+    --border-table: 1px solid #bbb;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+input:focus {
+    outline: 0;
+}
+
+body {
+    font-family: 'Aptos', sans-serif;
+    color: white;
+    background: #1b1b1e;
+}
+
+.container {
+    padding: 1rem;
+}
